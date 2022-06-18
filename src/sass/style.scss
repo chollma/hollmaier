@@ -1,4 +1,32 @@
+@import './variables.scss';
+
 body {
   font-family: sans-serif;
   background-color: #f9f9f9;
 }
+
+.btn {
+  text-decoration: none;
+  background-color: $background;
+  color: $color;
+  border-color: $background;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 5px;
+  
+  &:focus{
+    background-color: $color;
+    color:$background;
+  } 
+  &:hover{
+    background-color: $color;
+    color:$background;
+  } 
+}
+
+
+  
+
+
