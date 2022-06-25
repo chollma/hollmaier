@@ -1,14 +1,9 @@
-{% set currentUrl %}{{ page.url }}{% endset %}
-
 <nav>
   <ul role="list">
-    <li>
-      <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Home</a>
-      <a {% if currentUrl === '/about/' %}aria-current="page"{% endif %} href="/about/">About</a>
-      <a {% if currentUrl === '/talks/' %}aria-current="page"{% endif %} href="/talks/">Talks</a>
-      <a {% if currentUrl === '/writing/' %}aria-current="page"{% endif %} href="/writing/">Writing</a>
-    </li>
-
+    <li><a href="/">Home</a></li>
+    <li><a href="/talks/">Talks</a></li>
+    <li><a href="/posts/">Posts</a></li>
+  </ul>
     {% for page in collections.pages %}
     <li>
       <a 
