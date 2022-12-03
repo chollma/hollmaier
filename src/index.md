@@ -6,6 +6,9 @@ layout: "base.njk"
 
 ## What I do
 I'm a human-obsessed problem solver who believes that accessibility is a human right. I'm deeply passionate about continuous learning, building relationships, and co-creating exceptional experiences that everyone can participate in.
+\
+\
+Available for speaking, writing, teaching, and consulting. [Get in touch!](mailto:cooper@hollmaier.com)
 ## What I've done
 ### Currently
 - 4 years at Recreational Equipment, Inc. in Program and Product Management Roles. Currently: Leading the mission to improve REI’s accessibility maturity.
