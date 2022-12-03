@@ -7,7 +7,6 @@
         "start": "eleventy --serve",
         "build": "eleventy"
     },
-    "homepage": "/hollmaier",
     "keywords": [],
     "author": "",
     "license": "ISC",
