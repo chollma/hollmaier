@@ -20,9 +20,8 @@ Available for speaking, writing, teaching, and consulting. [Get in touch!](mailt
 - 4 years of architecting and optimizing search engine optimization strategies for local and national brands.
 
 ## Honors & awards
-- Deque: 2022 Accessibility Culture Award
-- REI: 2021 Anderson Award Nominee
-- REI: 2020 Anderson Award Nominee
+- Deque: Accessibility Culture Award
+- REI: Anderson Award
 ## Recent Posts
 {% for post in collections.posts %}
 - [{{post.data.title}}]({{post.url}})
