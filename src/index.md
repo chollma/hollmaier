@@ -1,5 +1,5 @@
 ---
-title: Cooper Hollmaier
+title: Cooper Hollmaier | Product Manager & Speaker
 description: "Product manager, consultant, speaker, educator, and accessiblity advocate."
 layout: "base.njk"
 ---
