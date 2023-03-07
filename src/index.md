@@ -31,4 +31,5 @@ Looking for a contributor with experience in accessibility, search engine optimi
 - Post: [{{post.data.title}}]({{post.url}})
 {% endfor %}
 - Post: [Accessibility and SEO - The A11y Project](https://www.a11yproject.com/posts/accessibility-seo/)
+- Post: [Getting started with TalkBack on Android](https://www.a11yproject.com/posts/getting-started-talkback/)
 - Talk: [Accessible Systems: Shipping Software that Enables by Default](https://www.csun.edu/cod/conference/sessions/index.php/public/presentations/view/1403)
