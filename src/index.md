@@ -13,6 +13,8 @@ Outside of work, you'll find me playing video games, biking, running, skiing and
 \
 \
 Looking for a contributor with experience in accessibility, search engine optimization, or remote work? I'm currently available for speaking, writing, teaching, and consulting. [Get in touch!](mailto:cooper@hollmaier.com)
+\
+You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/), [Twitter](https://twitter.com/CooperHollmaier), [Mastadon](https://mastodon.social/@CooperHollmaier), and [Github](https://github.com/chollma).
 ## What I've done
 ### Currently
 - 4 years at Recreational Equipment, Inc. in Program and Product Management Roles. Currently: Leading REI's award-winning accessibility team.
