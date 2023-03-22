@@ -38,4 +38,4 @@ You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/
 - Video: [SEO and Accessibility: Content - Moz](https://moz.com/blog/seo-and-accessibility-content)
 - Video: [SEO and Accessibility: Technical - Moz](https://moz.com/blog/technical-seo-and-accessibility)
 - Post: [Getting started with TalkBack on Android - The A11y Project](https://www.a11yproject.com/posts/getting-started-talkback/)
-- Talk: [Accessible Systems: Shipping Software that Enables by Default - CSUN 2023](https://www.csun.edu/cod/conference/sessions/index.php/public/presentations/view/1403)
+- Talk: [Accessible Systems: Shipping Software that Enables by Default - CSUN](https://www.csun.edu/cod/conference/sessions/index.php/public/presentations/view/1403)
