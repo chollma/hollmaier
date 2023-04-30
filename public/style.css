@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    background-color: #222;
 }
 
 body {
@@ -10,7 +11,8 @@ body {
     padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
     font-family: system-ui, sans-serif;
     line-height: 1.5;
-    color: #222;
+    color: white;
+    ;
 }
 
 body>* {
@@ -19,6 +21,21 @@ body>* {
     width: min(100%, var(--max-width));
     margin-left: auto;
     margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 1rem;
 }
 
 main {
@@ -50,6 +67,6 @@ article *+* {
 }
 
 a {
-    color: navy;
+    color: lightblue;
     text-underline-offset: 0.15em;
 }
