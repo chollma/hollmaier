@@ -39,7 +39,7 @@ nav li {
 }
 
 main {
-    margin-top: var(--layout-spacing);
+    /*margin-top: var(--layout-spacing);*/
 }
 
 footer {
