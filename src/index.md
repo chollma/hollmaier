@@ -1,6 +1,6 @@
 ---
 title: Cooper Hollmaier
-description: "Product manager, consultant, speaker, educator, and accessiblity advocate."
+description: "Product leader, speaker, mentor, and accessiblity advocate."
 layout: "base.njk"
 ---
 
@@ -21,18 +21,24 @@ I'm passionate about:
 
 \
 \
-Looking for a contributor with experience in accessibility, search engine optimization, or remote work? I'm currently available for speaking, writing, teaching, and consulting. [Get in touch!](mailto:cooper@hollmaier.com)
+Looking for a contributor with experience in accessibility, search engine optimization, or product management? I'm currently available for speaking, writing, teaching, and consulting. [Get in touch!](mailto:cooper@hollmaier.com)
 \
 \
-You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/), [Twitter](https://twitter.com/CooperHollmaier), [Mastadon](https://mastodon.social/@CooperHollmaier), and [Github](https://github.com/chollma).
+You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/) and [Github](https://github.com/chollma).
 
 
 ## What I've done
 ### Currently
-- 4 years at Recreational Equipment, Inc. in Program and Product Management Roles. Currently: Leading REI's award-winning accessibility team.
-    - Creating our an in-house accessibility program with the goal of enabling inclusive participation online, in-store, and outside.
-    - Managing, distributing, and consulting on conformance audits across REI.com's web properties leading to 80% remediation of barriers in 90 days
-    - Launching the Accessibility Champions Program, leading to a group of 50+ passionate accessibility advocates across the enterprise engaged in empathy building and up-skilling.
+
+- 4.5 years at Recreational Equipment, Inc. in Program and Product Management Roles. Currently: Leading REI's award-winning accessibility team.
+    - Created to co-op's first in-house accessibility program with the goal of enabling inclusive participation online, in-store, and outside.
+    - Managed, distributed, and consulted on conformance audits across REI.com's web properties leading to 80% remediation of barriers in 90 days.
+    - Deployed comprehensive automated accessibility testing via CI/CD, passively preventing regression for > 90% digital customer experiences.
+    - Launched adhoc testing tool, Arborist, leading to 99% increase in testing frequency ( 365 > 7 days ) and 99% ( $4.99 > $.003 ) cost savings, while expanding test scope to 2,600 unique pages.
+    - Built a semi-automated user "insights factory" that regularly includes people with disabilities in digital product development and enabled more than 60 unique tests in 2022.
+    - Launched the Accessibility Champions Program, leading to a group of 50+ passionate accessibility advocates across the enterprise engaged in empathy building and up-skilling.
+    - Awarded the Accessibility Culture Award at axeCon 2022
+    - Received the Anderson Award, REI's highest honor, for our work on Accessibility in 2021. Nominated in 2020, 2021, and 2023.
 
 ### Previously
 
