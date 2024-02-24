@@ -59,3 +59,4 @@ You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/
 - Post: [Getting started with TalkBack on Android - The A11y Project](https://www.a11yproject.com/posts/getting-started-talkback/)
 - Talk: [Accessible Systems: Shipping Software that Enables by Default - CSUN](https://www.csun.edu/cod/conference/sessions/index.php/public/presentations/view/1403)
 - Post: [Automated Accessibility Testing: From Passive to Preventative - REI Co-op Engineering](https://engineering.rei.com/frontend/automated-accessibility-testing.html)
+- Case Study: [How REI’s systems thinking approach helps scale accessibility across teams](https://makeitfable.com/how-rei-scales-accessibility-across-multiple-product-teams/)
