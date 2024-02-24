@@ -6,7 +6,7 @@ layout: "base.njk"
 
 ## Who I am
 
-I'm a product leader, speaker, and mentor. I advocate for systemic solutions to business and customer problems that are fast and accessible by default. You can find my work featured in [The A11y Project](https://www.a11yproject.com/authors/), [A11y Weekly](https://a11yweekly.com/), and at [CSUN: The Assistive Technology Conference](https://www.csun.edu/cod/conference/sessions/index.php/public/presentations/view/1403).
+I’m a strategic and results-oriented digital product manager with proven success in optimizing online shopping experiences using innovative tactics and customer-centric solutions. Skilled in systems thinking, user experience design, and data analytics, I’ve led several cross-functional teams to efficiency gains and revenue growth in the SEO, Landing Page, and Accessibility spaces in my 5 years at REI. You can find my work featured in [The A11y Project](https://www.a11yproject.com/authors/), [A11y Weekly](https://a11yweekly.com/), and at [CSUN: The Assistive Technology Conference](https://www.csun.edu/cod/conference/sessions/index.php/public/presentations/view/1403).
 \
 \
 I'm passionate about:
@@ -30,14 +30,18 @@ You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/
 ## What I've done
 ### Currently
 
-- 4.5 years at Recreational Equipment, Inc. in Program and Product Management Roles. Currently: Leading REI's award-winning accessibility team.
-    - Created to co-op's first in-house accessibility program with the goal of enabling inclusive participation online, in-store, and outside.
-    - Managed, distributed, and consulted on conformance audits across REI.com's web properties leading to 80% remediation of barriers in 90 days.
-    - Deployed comprehensive automated accessibility testing via CI/CD, passively preventing regression for > 90% digital customer experiences.
-    - Launched adhoc testing tool, Arborist, leading to 99% increase in testing frequency ( 365 > 7 days ) and 99% ( $4.99 > $.003 ) cost savings, while expanding test scope to 2,600 unique pages.
-    - Built a semi-automated user "insights factory" that regularly includes people with disabilities in digital product development and enabled more than 60 unique tests in 2022.
-    - Launched the Accessibility Champions Program, leading to a group of 50+ passionate accessibility advocates across the enterprise engaged in empathy building and up-skilling.
-    - Awarded the Accessibility Culture Award at axeCon 2022
+- 5 years at Recreational Equipment, Inc. in Program and Product Management Roles. Currently: Leading REI's Landing Page team, which is responsible for Category, Brand, Sale/Event, OptOutside, Outside in 5, and a several other high-profile, high-traffic templates.
+  
+    - Developed and led content platform migration strategy for 18 landing page templates, reducing project plan by 6 months.
+    - Led rapid iteration and experimentation strategy for new customer facing features.
+    - Created the co-op's first in-house accessibility program with the goal of enabling inclusive participation online, in-store, and outside.
+    - Led conformance audits for REI.com and associated web properties, achieving 95% issue remediation.
+    - Implemented and scaled CI/CD automated accessibility testing, actively preventing regression in 90% of digital customer experiences.
+    - Built Arborist, boosting accessibility testing frequency by 99% (365 to 7 days) and reducing costs by 99% ($4.99 to $0.03 per page).
+    - Planned and launched the Accessibility Champions Program, with over 50 advocates engaged in empathy building and up-skilling.
+    - Contributed to the founding of REI’s first disability-focused employee resource group / inclusion network.
+    - Co-created a unique "insights factory" to expand digital product testing to regularly include 20+ assistive technology combinations.
+    - Awarded the Accessibility Culture Award at axeCon 2022.
     - Received the Anderson Award, REI's highest honor, for our work on Accessibility in 2021. Nominated in 2020, 2021, and 2023.
 
 ### Previously
