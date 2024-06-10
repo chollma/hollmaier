@@ -25,6 +25,7 @@ You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/
   - Launched Arborist, an internal application that increased accessibility testing scope by >700% (300 to 2,600 pages), test frequency by 5100% (1 to 52 times/year), and decreased cost to test by 99% ($4.99/page to $0.03).
   - Implemented a [systems thinking approach](https://makeitfable.com/how-rei-scales-accessibility-across-multiple-product-teams/) to durably test digital products with assistive technology users at scale, leading to >50 user tests run in 2023 on 20+ assistive technology configurations.
   - Awarded the Anderson Award, a peer-nominated achievement, and REI’s highest honor (nominated in 2020, 2021, and 2023) as well as the Accessibility Culture Award from Deque Systems in 2021.
+  - Contributed to the International Association of Accessibility Professionals [October 2023 CPACC Body of Knowledge](https://www.accessibilityassociation.org/resource/CPACC_BoK_Oct2023)
 
 ### Guest Lecturer, Iowa State University
 (March 2021-Present)
