@@ -71,6 +71,11 @@ You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/
 - Certificate of Completion, Responsive Web Design, freeCodeCamp
 - (In-Progress) Machine Learning with Python, freeCodeCamp
 
+## Projects
+- Accessible Communication, [Short Course Intensive at Iowa State University](https://greenlee.iastate.edu/undergraduate/shortcourses/) (Fall 2024)
+
+
+
 ## Posts & Talks
 {% for post in collections.posts %}
 - Post: [{{post.data.title}}]({{post.url}})
