@@ -3,15 +3,15 @@ title: Cooper Hollmaier
 description: "Product leader, speaker, mentor, and accessibility advocate."
 layout: "base.njk"
 ---
+Cooper Hollmaier is an award-winning digital product manager with 9+ years of experience in the technology space. He currently leads efforts to make REI.com landing pages more engaging and useful for customers, so that more folks can enjoy time outside. A true advocate for inclusivity in the digital world, Cooper’s expertise extends beyond product management to the critical specialities of accessibility and technical search engine optimization. 
 
-## Who I am
-A strategic and results-driven technical product manager with 9+ years of digital experience collaborating with distributed software engineering and design teams. Passionate about mission-driven organizations and empowering cross-functional teams to deliver performant, accessible, and valuable digital products at scale.
-\
-\
-Looking for a contributor with experience in accessibility, search engine optimization, or product management? I'm currently available for speaking, writing, teaching, and consulting. [Get in touch!](mailto:cooper@hollmaier.com)
-\
-\
-You can also find me on, [LinkedIn](https://www.linkedin.com/in/cooperhollmaier/) and [Github](https://github.com/chollma).
+His passion for creating experiences that are performant, accessible, and valuable have led him to deliver numerous impactful features that contributed an incremental $300M+ in organic search revenue (2021), spin-up REI’s first digital accessibility product team (2021), increase accessibility testing coverage to >90% of REI.com pages (2023) and lead a robust experimentation roadmap that delivered more than $1M in incremental revenue (2024).
+
+Before joining REI in 2019, Cooper honed his skills in various leadership roles at Visiture and SocialSEO, where he developed and executed successful SEO strategies that significantly boosted online visibility and drove growth for his clients. His work demonstrated his ability to blend technical acumen and relationship management with strategic vision to produce outstanding results.
+
+## Links
+- LinkedIn: [https://www.linkedin.com/in/cooperhollmaier/](https://www.linkedin.com/in/cooperhollmaier/) 
+- X: [https://twitter.com/cooperhollmaier](https://twitter.com/cooperhollmaier)
 
 ## Posts & Talks
 {% for post in collections.posts %}
