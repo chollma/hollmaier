@@ -13,11 +13,6 @@ His passion for creating experiences that are performant, accessible, and valuab
 
 Before joining REI in 2019, Cooper honed his skills in various leadership roles at Visiture and SocialSEO, where he developed and executed successful SEO strategies that significantly boosted online visibility and drove growth for his clients. His work demonstrated his ability to blend technical acumen and relationship management with strategic vision to produce outstanding results.
 
-
-## Links
-- LinkedIn: [https://www.linkedin.com/in/cooperhollmaier/](https://www.linkedin.com/in/cooperhollmaier/) 
-- X: [https://twitter.com/cooperhollmaier](https://twitter.com/cooperhollmaier)
-
 ## Posts & Talks
 {% for post in collections.posts %}
 - Post: [{{post.data.title}}]({{post.url}})

@@ -1,27 +1,41 @@
+:root {
+    --color-bg: #222;
+    --color-text: white;
+    --color-link: lightblue;
+    --layout-spacing: max(8vh, 3rem);
+    --max-width: 70ch;
+    --padding-default: clamp(1rem, 5vw, 3rem);
+}
+
+
+/* Base styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
-    background-color: #222;
 }
 
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
+    padding: 5vh var(--padding-default) 1rem;
     font-family: system-ui, sans-serif;
     line-height: 1.5;
-    color: white;
-    ;
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
+
+/* Layout */
+
 body>* {
-    --layout-spacing: max(8vh, 3rem);
-    --max-width: 70ch;
     width: min(100%, var(--max-width));
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: auto;
 }
+
+
+/* Navigation */
 
 nav {
     display: flex;
@@ -38,21 +52,8 @@ nav li {
     padding-left: 1rem;
 }
 
-main {
-    /*margin-top: var(--layout-spacing);*/
-}
 
-footer {
-    margin-top: auto;
-    padding-top: var(--layout-spacing);
-}
-
-footer p {
-    border-top: 1px solid #ccc;
-    padding-top: 0.25em;
-    font-size: 0.9rem;
-    color: #ACACAC;
-}
+/* Typography */
 
  :is(h1, h2, h3) {
     line-height: 1.2;
@@ -67,6 +68,58 @@ article *+* {
 }
 
 a {
-    color: lightblue;
+    color: var(--color-link);
     text-underline-offset: 0.15em;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    color: var(--color-text);
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-column-left {
+    text-align: left;
+}
+
+.footer-column-right {
+    text-align: right;
+}
+
+.footer-column a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #ddd;
+}
+
+
+/* Mobile styles */
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+    .footer-column {
+        margin-bottom: 2px;
+    }
+    .footer-column-left,
+    .footer-column-right {
+        text-align: center;
+    }
 }
