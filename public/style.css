@@ -1,14 +1,15 @@
 :root {
     --color-bg: #222;
-    --color-text: white;
+    --color-text: #fff;
     --color-link: lightblue;
+    --spacing-default: clamp(1rem, 5vw, 3rem);
     --layout-spacing: max(8vh, 3rem);
-    --max-width: 70ch;
-    --padding-default: clamp(1rem, 5vw, 3rem);
+    --max-width: 100ch;
+    --footer-gap: 20px;
 }
 
 
-/* Base styles */
+/* Base Styles */
 
 * {
     box-sizing: border-box;
@@ -19,15 +20,12 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 5vh var(--padding-default) 1rem;
+    padding: 5vh var(--spacing-default) 1rem;
     font-family: system-ui, sans-serif;
     line-height: 1.5;
     background-color: var(--color-bg);
     color: var(--color-text);
 }
-
-
-/* Layout */
 
 body>* {
     width: min(100%, var(--max-width));
@@ -70,6 +68,12 @@ article *+* {
 a {
     color: var(--color-link);
     text-underline-offset: 0.15em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ddd;
 }
 
 
@@ -79,7 +83,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: var(--footer-gap);
     padding: 40px 20px;
     color: var(--color-text);
 }
@@ -87,6 +91,7 @@ a {
 .footer-column {
     flex: 1;
     min-width: 250px;
+    text-align: center;
 }
 
 .footer-column-left {
@@ -97,19 +102,87 @@ a {
     text-align: right;
 }
 
-.footer-column a {
-    text-decoration: none;
-    transition: color 0.3s ease;
+
+/* Profile Section */
+
+.profile-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    align-items: flex-start;
 }
 
-.footer-column a:hover {
-    color: #ddd;
+.profile-column {
+    flex: 1;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.cta-button.linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+.cta-button.resume {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.cta-button:hover {
+    opacity: 0.9;
 }
 
 
-/* Mobile styles */
+/* Section-Specific Styles */
 
-@media (max-width: 600px) {
+.right h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.left h2 {
+    margin-bottom: 1.5rem;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+    }
+    .profile-photo {
+        margin: 0 auto 1.5rem;
+    }
     .footer {
         flex-direction: column;
         text-align: center;
@@ -117,9 +190,6 @@ a {
     }
     .footer-column {
         margin-bottom: 2px;
-    }
-    .footer-column-left,
-    .footer-column-right {
         text-align: center;
     }
 }
