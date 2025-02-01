@@ -3,7 +3,8 @@ title: Cooper Hollmaier
 description: "Product leader, speaker, mentor, and accessibility advocate."
 layout: "base.njk"
 ---
-{% include 'profile-short.njk' %}
+## About
+{% include 'profile.njk' %}
 
 <!--## Featured Work-->
 
