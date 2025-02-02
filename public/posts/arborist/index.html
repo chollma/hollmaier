@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arborist</title>
+    <meta name="description" content="Automated accessibility scanner powered by axe-core that expanded testing coverage and maximized efficiency through weekly automated checks.">
+    <link rel="stylesheet" href="/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDQDV5VD2L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-LDQDV5VD2L');
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Cooper Hollmaier</h1>
+    </header>
+    <main>
+        <h1>Arborist</h1>
+<p>Written 2025</p>
+<p>Automated accessibility scanner powered by axe-core that expanded testing coverage and maximized efficiency through weekly automated checks of REI.com.</p>
+<h2>My Role</h2>
+<p>As the product manager for our digital accessibility team, I worked closely with our accessibility designer, lead engineer, and senior test engineers to take Arborist from an idea to a fully functioning internal product that’s still in use today.
+Product</p>
+<h2>Product</h2>
+<p>Arborist is a tool that accepts an unlimited number of URLs as input, runs weekly automated accessibility tests against these URLs by making use of the <a href="https://github.com/dequelabs/axe-core">axe-core</a> testing library, and outputs a detailed evaluation based on test failures. On each run the output is sent to Slack as a CSV.</p>
+<h2>Evolution</h2>
+<p>A prevailing framing for accessibility in the digital space is conformance/compliance. Many companies are stuck in an endless audit and remediation cycle – relying on vendors to review their website, identify where it doesn’t adhere to the <a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines</a>, and then task the engineering team with addressing the issues.<br><br>
+In the midst of our digital accessibility maturity journey, we wanted to become less reactive and more proactive. To start, we mapped out the Software Development Lifecycle (SLDC) of our website and ran customer interviews by role/function to understand the pain points as it related to accessibility.<br><br>
+From there, we built and launched non-blocking tests that integrated into the existing CI/CD pipeline tooling (Jenkins). This gave us a better (though not complete) view of which teams and applications were failing to launch accessible customer experiences and it gave engineering teams more visibility directly in the tools they already used daily. As teams remediated flagged issues and became more comfortable, we made the tests blocking, effectively stopping inaccessible code from reaching customers.<br><br></p>
+<p>While this approach was effective, we found that maintaining the list of URLs for each application was cumbersome and as a result accessibility test coverage wasn’t without gaps. We attempted to solve this with a 3rd-party monitoring tool that sat outside the CI/CD pipeline, but given the scale of an eCommerce website, found it was too limited in the number of pages it could monitor and cost a significant amount for what it ultimately delivered. <br><br></p>
+<p>Hence, we set out to build Arborist, a tool that could monitor our accessibility progress, while costing next to nothing to maintain.</p>
+<h2>Metrics</h2>
+<ul>
+<li>5x increase in testing visibility (from 500 to 2,600+ pages).</li>
+<li>94% reduction to time to results. The same actions taken by a person would take roughly 86.6 hours.</li>
+<li>52x increase in automated testing frequency (annually to weekly)</li>
+<li>Increased flexibility. Utilizing an open-source library limits costs and running the tool outside the pipeline reduces disruptions.</li>
+</ul>
+<h2>Key Takeaways</h2>
+<ul>
+<li>Open source libraries can offer a significant cost savings over other solutions and offer a tremendous amount of flexibility.</li>
+</ul>
+<p><br><br>  For a more in-depth breakdown of our automated accessibility journey, check out: <a href="https://engineering.rei.com/frontend/automated-accessibility-testing.html">Automated Accessibility Testing: From Passive to Preventative</a>.</p>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-column footer-column-left">
+            <a href="https://www.linkedin.com/in/cooperhollmaier/">LinkedIn</a> /
+            <a href="https://github.com/chollma">Github</a> /
+            <a href="https://x.com/CooperHollmaier">X</a>
+        </div>
+        <div class="footer-column footer-column-right">&copy; 2025 Cooper Hollmaier</div>
+    </footer>
+</body>
+
+
+</html>
